@@ -19,7 +19,7 @@ const SPECIALTIES = [
 // Mock doctors for demo (backend would return these from DB seed)
 const MOCK_DOCTORS = [
   {
-    _id: '1', name: 'Dr. Meera Agarwal', specialty: 'gynecologist',
+    _id: '507f1f77bcf86cd799439011', name: 'Dr. Meera Agarwal', specialty: 'gynecologist',
     experience: 15, rating: 4.9, reviewCount: 234,
     consultationFee: 500, videoFee: 400,
     expertise: ['PCOS Expert', 'High Risk Pregnancy'],
@@ -28,7 +28,7 @@ const MOCK_DOCTORS = [
     bio: 'Specialist in reproductive health & PCOS management with 15 years of experience.',
   },
   {
-    _id: '2', name: 'Dr. Priya Patel', specialty: 'fertility',
+    _id: '507f1f77bcf86cd799439012', name: 'Dr. Priya Patel', specialty: 'fertility',
     experience: 12, rating: 4.8, reviewCount: 189,
     consultationFee: 600, videoFee: 500,
     expertise: ['Infertility', 'IVF Specialist'],
@@ -37,7 +37,7 @@ const MOCK_DOCTORS = [
     bio: 'Leading fertility expert with 3000+ successful IVF cycles.',
   },
   {
-    _id: '3', name: 'Dr. Anjali Desai', specialty: 'gynecologist',
+    _id: '507f1f77bcf86cd799439013', name: 'Dr. Anjali Desai', specialty: 'gynecologist',
     experience: 20, rating: 4.9, reviewCount: 312,
     consultationFee: 450, videoFee: 350,
     expertise: ['Menopause', 'Hormonal Issues'],
@@ -46,7 +46,7 @@ const MOCK_DOCTORS = [
     bio: 'Expert in menopause management and hormonal health for women of all ages.',
   },
   {
-    _id: '4', name: 'Dr. Sunita Rao', specialty: 'ayurveda',
+    _id: '507f1f77bcf86cd799439014', name: 'Dr. Sunita Rao', specialty: 'ayurveda',
     experience: 18, rating: 4.7, reviewCount: 156,
     consultationFee: 300, videoFee: 250,
     expertise: ['PCOS Ayurveda', 'Infertility'],
