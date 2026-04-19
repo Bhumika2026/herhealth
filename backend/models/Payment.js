@@ -32,6 +32,8 @@ const paymentSchema = new mongoose.Schema({
   doctorId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Doctor',
+    required: false,
+    default: null,
   },
   appointmentId: {
     type: mongoose.Schema.Types.ObjectId,

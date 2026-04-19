@@ -46,7 +46,7 @@ exports.createOrder = async (req, res) => {
       type,
       razorpayOrderId: order.id,
       amount: plan.amount,
-      doctorId: doctorId || undefined,
+      doctorId: doctorId && doctorId.length === 24 ? doctorId : null,
       subscriptionPlan: plan.label,
       subscriptionMonths: plan.months,
     });
