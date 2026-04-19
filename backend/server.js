@@ -33,7 +33,7 @@ app.use('/api/payments',  require('./routes/paymentRoutes'));
 app.use('/api/community', require('./routes/communityRoutes'));
 app.use('/api/reminders', require('./routes/reminderRoutes'));
 app.use('/api/insights',  require('./routes/insightRoutes'));
-
+app.use('/api/sakhi', require('./routes/sakhiRoutes'));
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: '🌸 HerHealth API is running' });
