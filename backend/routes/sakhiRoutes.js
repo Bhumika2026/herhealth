@@ -15,7 +15,7 @@ router.post('/chat', protect, async (req, res) => {
         'Authorization': `Bearer ${process.env.SAMBANOVA_API_KEY}`,
       },
       body: JSON.stringify({
-        model: 'Meta-Llama-3.1-8B-Instruct',
+        model: 'Meta-Llama-3.3-70B-Instruct',
         max_tokens: 400,
         temperature: 0.7,
         messages: [
